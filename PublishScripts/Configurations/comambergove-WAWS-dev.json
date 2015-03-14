@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "ambergove",
+            "location": "West US"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "ambergove_db",
+                "serverName": "fcgoha1ub7",
+                "user": "warlock",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "West US"
+            }
+        ]
+    }
+}
