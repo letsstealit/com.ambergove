@@ -172,30 +172,123 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\jquery.sidr.dark.css" />
-    <Content Include="Content\overrides.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\ie\backgroundsize.min.htc" />
+    <Content Include="css\ie\html5shiv.js" />
+    <Content Include="css\ie\PIE.htc" />
+    <Content Include="css\ie\v8.css" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\jquery.sidr.dark.css" />
+    <Content Include="css\overrides.css" />
+    <Content Include="css\skel.css" />
+    <Content Include="css\style-mobile.css" />
+    <Content Include="css\style-mobile.min.css">
+      <DependentUpon>style-mobile.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-mobilep.css" />
+    <Content Include="css\style-mobilep.min.css">
+      <DependentUpon>style-mobilep.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-narrow.css" />
+    <Content Include="css\style-narrow.min.css">
+      <DependentUpon>style-narrow.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-narrower.css" />
+    <Content Include="css\style-narrower.min.css">
+      <DependentUpon>style-narrower.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-normal.css" />
+    <Content Include="css\style-normal.min.css">
+      <DependentUpon>style-normal.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-wide.css" />
+    <Content Include="css\style-wide.min.css">
+      <DependentUpon>style-wide.css</DependentUpon>
+    </Content>
+    <Content Include="css\style.css" />
+    <Content Include="css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="css\Site.css" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\bottom.png" />
+    <Content Include="images\divider.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="images\pic04.jpg" />
+    <Content Include="images\pic05.jpg" />
+    <Content Include="images\seamless_paper_texture.png" />
+    <Content Include="images\top.png" />
+    <Content Include="images\top3.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="css\style-mobilep.css.map">
+      <DependentUpon>style-mobilep.css</DependentUpon>
+    </Content>
+    <Content Include="css\style.css.map">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-wide.css.map">
+      <DependentUpon>style-wide.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-normal.css.map">
+      <DependentUpon>style-normal.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-narrower.css.map">
+      <DependentUpon>style-narrower.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-narrow.css.map">
+      <DependentUpon>style-narrow.css</DependentUpon>
+    </Content>
+    <Content Include="css\style-mobile.css.map">
+      <DependentUpon>style-mobile.css</DependentUpon>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\ambergove.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.sidr.min.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="js\init.js" />
+    <Content Include="js\jquery.dropotron.min.js" />
+    <Content Include="js\jquery.scrollgress.min.js" />
+    <Content Include="js\skel-layers.min.js" />
+    <Content Include="js\skel.min.js" />
+    <Content Include="sass\style-mobile.scss" />
+    <Content Include="sass\style-mobilep.scss" />
+    <Content Include="sass\style-narrow.scss" />
+    <Content Include="sass\style-narrower.scss" />
+    <Content Include="sass\style-normal.scss" />
+    <Content Include="sass\style-wide.scss" />
+    <Content Include="sass\style.css">
+      <DependentUpon>style.scss</DependentUpon>
+    </Content>
+    <Content Include="sass\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
+    <Content Include="sass\style.scss" />
+    <Content Include="sass\_mixins.scss" />
+    <Content Include="sass\_vars.scss" />
+    <None Include="js\jquery-1.10.2.intellisense.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <None Include="js\jquery.validate-vsdoc.js" />
+    <Content Include="js\jquery.sidr.min.js" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="js\jquery.validate.min.js" />
+    <Content Include="js\jquery.validate.unobtrusive.js" />
+    <Content Include="js\jquery.validate.unobtrusive.min.js" />
+    <Content Include="js\modernizr-2.6.2.js" />
+    <Content Include="js\respond.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -210,7 +303,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="js\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -231,14 +324,15 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="sass\ie\v8.scss" />
+    <Content Include="sass\style.css.map">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
