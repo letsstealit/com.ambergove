@@ -183,6 +183,7 @@
     <Content Include="css\jquery.sidr.dark.css" />
     <Content Include="css\overrides.css" />
     <Content Include="css\skel.css" />
+    <Content Include="css\slick-theme.css" />
     <Content Include="css\style-mobile.css" />
     <Content Include="css\style-mobile.min.css">
       <DependentUpon>style-mobile.css</DependentUpon>
@@ -213,10 +214,15 @@
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\slick.svg" />
     <Content Include="Global.asax" />
     <Content Include="css\Site.css" />
     <Content Include="images\banner.jpg" />
     <Content Include="images\bottom.png" />
+    <Content Include="images\carousel\four.jpg" />
+    <Content Include="images\carousel\one.jpg" />
+    <Content Include="images\carousel\three.jpg" />
+    <Content Include="images\carousel\two.jpg" />
     <Content Include="images\divider.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\pic01.jpg" />
@@ -255,6 +261,9 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\slick.eot" />
+    <Content Include="fonts\slick.ttf" />
+    <Content Include="fonts\slick.woff" />
     <None Include="Properties\PublishProfiles\ambergove.pubxml" />
     <Content Include="js\init.js" />
     <Content Include="js\jquery.dropotron.min.js" />

@@ -888,7 +888,7 @@ body.landing #main {
 #introduction {
   background-color: #1a8fb4;
   color: #ffffff;
-  padding: 1.5em 0 4em 0;
+  padding: 1.5em 0 0 0;
   text-align: center; }
   #introduction .logo {
     width: 265px;
@@ -896,7 +896,34 @@ body.landing #main {
   #introduction .inner {
     background-image: url(/images/sectionOneTile.png);
     background-repeat: repeat-x;
-    height: 100%; }
+    height: 280px;
+    margin-top: -280px;
+    background-position: bottom left; }
+
+.slick-slide .image {
+  padding: 10px; }
+
+.slick-slide img {
+  border: 5px solid #FFF;
+  display: block;
+  width: 85%;
+  margin: 0 auto; }
+
+.slick-slide img.slick-loading {
+  border: 0; }
+
+.slick-slider {
+  margin: 30px auto 30px; }
+
+.blue h3 {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center; }
 
 #marketing {
   background-color: #1a5d7e;

@@ -8,9 +8,15 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+
+
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     @Styles.Render("~/css/all")
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/slick-theme.css" />
     @Scripts.Render("~/bundles/modernizr")
+  
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -152,5 +158,6 @@
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
 </body>
 </html>

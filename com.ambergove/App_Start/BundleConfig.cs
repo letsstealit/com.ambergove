@@ -28,7 +28,7 @@ namespace com.ambergove
                       "~/css/skel.css",
                       "~/css/font-awesome.min.cs",
                      
-                      "~/css/site.css",
+                      "~/css/Site.css",
                       "~/css/overrides.css"));
         }
     }
