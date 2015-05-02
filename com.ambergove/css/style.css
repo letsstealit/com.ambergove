@@ -915,6 +915,27 @@ body.landing #main {
 .slick-slider {
   margin: 30px auto 30px; }
 
+.section-icon, .section-text {
+  width: 120px;
+  display: block;
+  margin: 0 auto; }
+
+.section-icon {
+  padding-top: 30px; }
+
+h3.section-description {
+  color: #fff;
+  text-shadow: #1a8fb4 0 1px 0;
+  font-size: 1.25em;
+  text-align: left;
+  margin: 0 0 1em 0; }
+
+#menu-description .actions {
+  text-align: left; }
+
+.section-list {
+  text-align: left; }
+
 .blue h3 {
   background: #fff;
   color: #3498db;
