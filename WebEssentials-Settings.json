@@ -3,7 +3,7 @@
     "CssIgnorePatterns": "",
     "EnableMenu": true,
     "EnablePixelPushing": true,
-    "ShowMenu": true
+    "ShowMenu": false
   },
   "CodeGen": {
     "AddTypeScriptReferencePath": true,
