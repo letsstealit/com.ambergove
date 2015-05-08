@@ -927,7 +927,7 @@ body.landing {
     cursor: default;
 
     line-height: 3.25em;
-
+    margin:-1px;
     padding-top: 10px;
   
     width: 100%;
@@ -1237,10 +1237,15 @@ body.landing {
 /* Footer */
 
 #footer {
-    background: #f0f0f0;
-    padding: 4em 0 6em 0;
+    background: #444444;
+    padding: 2em 0 2em 0;
     text-align: center;
-
+        border-top: rgba(0,0,0,0.8) solid 2px;
+    h2.subheading {
+          font-size: 2.5em;
+  margin-bottom: 20px;
+  color:#bbb;
+    }
     .icons {
         a {
             @include vendor-property('transition', 'opacity #{$duration-transition} ease-in-out');
