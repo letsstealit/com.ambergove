@@ -1,30 +1,30 @@
-﻿using System;
+﻿using com.ambergove.Filters;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 
 namespace com.ambergove.Controllers
 {
-    public class HomeController : Controller
+    public class OAuthController : Controller
     {
+        [Authorize]
         public ActionResult Index()
         {
+
             return View();
+
         }
 
-        public ActionResult Menu()
+        [HttpPost]
+        public ActionResult Instagram(dynamic posted)
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

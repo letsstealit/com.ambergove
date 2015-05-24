@@ -159,12 +159,23 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\OAuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Filters\RequireBasicAuthentication.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\HtmlHelpers.cs" />
+    <Compile Include="Migrations\201505231653002_Names.cs" />
+    <Compile Include="Migrations\201505231653002_Names.Designer.cs">
+      <DependentUpon>201505231653002_Names.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505231711568_OAuth.cs" />
+    <Compile Include="Migrations\201505231711568_OAuth.Designer.cs">
+      <DependentUpon>201505231711568_OAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -223,18 +234,24 @@
     <Content Include="images\carousel\one.jpg" />
     <Content Include="images\carousel\three.jpg" />
     <Content Include="images\carousel\two.jpg" />
+    <Content Include="images\clients\instagram.png" />
+    <Content Include="images\color.png" />
+    <Content Include="images\cut.png" />
     <Content Include="images\divider.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\menu.png" />
     <Content Include="images\menuIcon.png" />
+    <Content Include="images\paisley.png" />
     <Content Include="images\pic01.jpg" />
     <Content Include="images\pic02.jpg" />
     <Content Include="images\pic03.jpg" />
     <Content Include="images\pic04.jpg" />
     <Content Include="images\pic05.jpg" />
+    <Content Include="images\profile.jpg" />
     <Content Include="images\rinse.jpg" />
     <Content Include="images\seamless_paper_texture.png" />
     <Content Include="images\sectionOneTile.png" />
+    <Content Include="images\style.png" />
     <Content Include="images\top.png" />
     <Content Include="images\top3.png" />
     <Content Include="js\bootstrap.js" />
@@ -313,7 +330,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Menu.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="js\jquery-1.10.2.min.map" />
@@ -341,6 +358,8 @@
     <Content Include="sass\style.css.map">
       <DependentUpon>style.css</DependentUpon>
     </Content>
+    <Content Include="Views\OAuth\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutOther.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -348,6 +367,14 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201505231653002_Names.resx">
+      <DependentUpon>201505231653002_Names.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505231711568_OAuth.resx">
+      <DependentUpon>201505231711568_OAuth.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

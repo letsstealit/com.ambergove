@@ -28,14 +28,11 @@
 <body class="landing">
 
     <!-- Header -->
-    <header id="header">
+    <header id="header" class="main">
         <nav id="nav">
             <ul>
                 <li class="1u @Html.IsSelected(action: "Index")">
                     @Html.ActionLink("Home", "Index", "Home")
-                </li>
-                <li class="1u @Html.IsSelected(action: "About")">
-                    @Html.ActionLink("About", "About", "Home")
                 </li>
                 <li class="1u @Html.IsSelected(action: "Menu")">
                     @Html.ActionLink("Menu", "Menu", "Home")
