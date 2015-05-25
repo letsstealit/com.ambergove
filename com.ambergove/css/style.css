@@ -771,7 +771,7 @@ body.landing2 #skel-layers-wrapper {
     .dropotron li:first-child > a, .dropotron li:first-child > span {
       border-top: 0; }
     .dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-      background: #e89980;
+      background: #fff;
       color: #ffffff; }
   .dropotron.level-0 {
     font-size: 0.9em;

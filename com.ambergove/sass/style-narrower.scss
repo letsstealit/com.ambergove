@@ -110,17 +110,22 @@
 	}
 
 	#navPanel {
-		background: darken($color-header-bg, 10);
+	
 		color: $color-header-fg;
+          background-color: $color-section2-bg;
+          border-right: 2px solid darken($color-section2-bg, 5);
+          /*rgba(26, 143, 180, 0.5);*/
 
 		.link {
 			border-bottom: 0;
-			border-top: solid 1px rgba(255,255,255,0.05);
+			border-top: solid 1px rgba(255,255,255,0.2);
 			color: $color-header-fg;
 			display: block;
 			height: 44px;
 			line-height: 44px;
 			padding: 0 1em 0 1em;
+            font-size:18px;
+
 			text-decoration: none;
 		
 			&:first-child {
@@ -130,6 +135,10 @@
 			&.depth-0 {
 				color: $color-header-fg-bold;
 			}
+
+            &.active {
+                  background-color: rgba(26,143,180,0.5)
+            }
 			
 			.indent-1 { display: inline-block; width: 1em; }
 			.indent-2 { display: inline-block; width: 2em; }

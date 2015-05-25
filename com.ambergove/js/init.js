@@ -36,7 +36,8 @@
 						orientation: 'vertical',
 						position: 'top-left',
 						side: 'left',
-						width: 250
+						width: 250,
+                        speed:50
 					},
 
 				// Navigation Button.

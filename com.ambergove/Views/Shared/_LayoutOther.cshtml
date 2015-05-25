@@ -63,5 +63,17 @@
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+    $(function () {
+        var selected = $("li.active a").html();
+        $("a.link.depth-0").each(function (index, element) {
+            var text = $(element).html();
+            if (text.indexOf(selected) >= 0)
+                $(element).addClass("active");
+        });
+
+    });
+    </script>
+
 </body>
 </html>
