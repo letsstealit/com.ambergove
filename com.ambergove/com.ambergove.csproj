@@ -242,6 +242,7 @@
     <Content Include="images\menu.png" />
     <Content Include="images\menuIcon.png" />
     <Content Include="images\paisley.png" />
+    <Content Include="images\paisley2.png" />
     <Content Include="images\pic01.jpg" />
     <Content Include="images\pic02.jpg" />
     <Content Include="images\pic03.jpg" />
@@ -249,9 +250,11 @@
     <Content Include="images\pic05.jpg" />
     <Content Include="images\profile.jpg" />
     <Content Include="images\rinse.jpg" />
+    <Content Include="images\rinseLogo.png" />
     <Content Include="images\seamless_paper_texture.png" />
     <Content Include="images\sectionOneTile.png" />
     <Content Include="images\style.png" />
+    <Content Include="images\test.jpg" />
     <Content Include="images\top.png" />
     <Content Include="images\top3.png" />
     <Content Include="js\bootstrap.js" />

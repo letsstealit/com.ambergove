@@ -134,7 +134,7 @@ section.special, article.special {
   /*background-color: $color-section-footer-bg;*/ }
 
 .main {
-  background-color: #1a8fb4; }
+  /*background-color: $color-section1-bg;*/ }
 
 header p {
   color: #999;
@@ -466,7 +466,7 @@ ul {
     list-style: none;
     padding-left: 0; }
     ul.alt li {
-      border-top: solid 1px #e5e5e5;
+      border: solid 1px #e5e5e5;
       padding: 0.5em 0; }
       ul.alt li:first-child {
         border-top: 0;
@@ -615,12 +615,18 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     line-height: 2.7em; }
   input[type="submit"].alt2, input[type="reset"].alt2, input[type="button"].alt2, .button.alt2 {
     background-color: #1a5d7e;
-    box-shadow: inset 0 0 0 2px #0f5469;
+    border: 1px solid #0f5469;
     color: #ffffff;
     text-shadow: #000 0 1px 0; }
+  input[type="submit"].alt3, input[type="reset"].alt3, input[type="button"].alt3, .button.alt3 {
+    background-color: #1a5d7e;
+    border: 1px solid #0f5469;
+    color: #ffffff;
+    text-shadow: #000 0 1px 0;
+    width: 100%; }
   input[type="submit"].alt, input[type="reset"].alt, input[type="button"].alt, .button.alt {
     background-color: #1a8fb4;
-    box-shadow: inset 0 0 0 2px #0f5469;
+    border: 1px solid #0f5469;
     color: #ffffff;
     text-shadow: #000 0 1px 0; }
     input[type="submit"].alt.icon:before, input[type="reset"].alt.icon:before, input[type="button"].alt.icon:before, .button.alt.icon:before {
@@ -643,7 +649,13 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
 #skel-layers-wrapper {
   padding-top: 3em; }
 
-body.landing #skel-layers-wrapper {
+body.landing {
+  background-image: url("/images/paisley2.png");
+  background-color: #1a8fb4; }
+  body.landing #skel-layers-wrapper {
+    padding-top: 0; }
+
+body.landing2 #skel-layers-wrapper {
   padding-top: 0; }
 
 #header.other nav > ul > li a:not(.button) {
@@ -659,7 +671,7 @@ body.landing #skel-layers-wrapper {
 #header.main nav > ul > li a:hover {
   color: #20b9e8; }
 #header.main nav > ul > li.active a:not(.button) {
-  background-color: #20b9e8;
+  background-color: #1a5d7e;
   color: #ffffff; }
 
 #header {
@@ -862,11 +874,25 @@ body.landing #main {
   margin-top: -14em; }
 
 .menu-subheading {
-  font-size: 4em;
+  font-size: 3.5em;
   margin-bottom: 20px;
   color: #1a5d7e;
   text-shadow: 1px 1px #fff;
   font-family: 'Pacifico', cursive; }
+
+.reserve-subheading {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 1px 1px #1a5d7e;
+  font-family: 'Pacifico', cursive; }
+
+.reserve-text {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center; }
 
 /* Footer */
 #footer {
@@ -909,7 +935,6 @@ body.landing #main {
 
 /* Home - Introduction */
 #introduction {
-  background-color: #1a8fb4;
   color: #ffffff;
   padding: 0.75em 0 0 0;
   text-align: center; }
@@ -917,7 +942,6 @@ body.landing #main {
     width: 265px;
     margin-left: 40px; }
   #introduction .inner {
-    background-image: url(/images/sectionOneTile.png);
     background-repeat: repeat-x;
     height: 280px;
     margin-top: -280px;
@@ -940,8 +964,7 @@ body.landing #main {
   margin-bottom: -7px; }
 
 .paisley {
-  background: url(/images/paisley.png) #f4f4f4;
-  background-size: 150px; }
+  background: url(/images/paisley.png) #f4f4f4; }
 
 .page {
   background-color: #fff;
@@ -1004,6 +1027,10 @@ h2.subheading {
   color: #fff;
   font-size: 3em;
   margin: 0; }
+
+h3.contact-page {
+  font-weight: bold;
+  color: #000; }
 
 h3.subheading {
   font-family: 'Pacifico', cursive;
@@ -1073,6 +1100,7 @@ span.avatar--large {
   text-align: center; }
 
 #marketing {
+  background-image: url("/images/paisley2.png");
   background-color: #1a5d7e;
   color: #ffffff;
   padding: 6em 0 6em 0;

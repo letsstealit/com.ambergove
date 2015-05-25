@@ -1,18 +1,82 @@
 ﻿@{
     ViewBag.Title = "Contact";
-    Layout = "~/Views/Shared/_LayoutOther.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<section style="padding:0 0 2em 0;">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+
+    <div class="8u -2u 12u(mobile)">
+        <div class="row">
+            <div style="text-align:center" class="12u 10u(mobile) -1u(mobile)">
+                <h2 style="margin: 0;" class="reserve-subheading">Reservations</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="6u 10u(mobile) -1u(mobile)">
+                <section>
+
+                    <span class="avatar avatar--large">
+                        <img class="avatar-image" src="~/images/test.jpg" />
+                    </span>
+
+
+
+                </section>
+            </div>
+            <div class="6u 10u(mobile) -1u(mobile)">
+
+
+                <section id="location_right" style="line-height:25px; margin-top:25px;">
+                    <ul class="actions" style="margin:0; width: 100%;">
+                        <li style="width:100%;"><a href="http://rinsesd.com/schedule-now/" class="button alt3">Book Your Reservation Online!</a></li>
+                    </ul>
+
+                    <h3 class="reserve-text">Or call to make an appointment:</h3>
+
+
+                    <div class="button alt2" style="width: 100%;">
+                        <i class="fa fa-phone" style="margin-right:10px; "></i><a style="color:#fff;" href="tel:555-555-5555">555-555-5555</a>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="location" style="padding: 2em 0 2em 0;">
+
+
+
+    <div class="8u -2u 12u(mobile)">
+        <div class="row">
+            <div style="text-align:center" class="12u 10u(mobile) -1u(mobile)">
+                <h2 style="margin: 0; color:#000;" class="subheading">Directions</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="6u 10u(mobile) -1u(mobile)">
+                <section>
+                    <a href="http://rinsesd.com" style="cursor: pointer;"><img src="~/images/rinseLogo.png" style="width:250px;" /></a>
+                    <h3 class="location-description">Convieniently located at the award winning Rinse Salon, in the bustling neighborhood of North Park.</h3>
+                    <ul class="actions" style="width:100%; margin:0;">
+                        <li style="width:100%;"><a style="width:100%;" href="http://maps.apple.com/?q=32.748645,-117.136876" class="button alt">Get Directions</a></li>
+                    </ul>
+                    <h3 class="reserve-text" style="color:#000;">Or call for directions directly at:</h3>
+                    <div class="button alt" style="width: 100%;">
+                        <i class="fa fa-phone" style="margin-right:10px; "></i><a style="color:#fff;" href="tel:619-677-2078">619-677-2078</a>
+                    </div>
+                </section>
+            </div>
+            <div class="6u 10u(mobile) -1u(mobile)">
+                <section id="location_right">
+                 
+                    <iframe style="width:100%;height:450px;" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Rinse%20Salon%2C%20University%20Avenue%2C%20San%20Diego%2C%20CA%2C%20United%20States&key=AIzaSyADgIMWoWbBFCZWlVD9lB8GrrCYRDnPxUk"></iframe>
+             
+                </section>
+            </div>
+
+        </div>
+    </div>
+</section>
