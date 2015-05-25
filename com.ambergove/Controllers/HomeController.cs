@@ -20,7 +20,7 @@ namespace com.ambergove.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Appointments()
         {
             ViewBag.Message = "Your contact page.";
 
