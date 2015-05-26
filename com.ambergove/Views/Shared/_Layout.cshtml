@@ -15,15 +15,8 @@
     @Styles.Render("~/css/all")
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css" />
     <link rel="stylesheet" type="text/css" href="~/css/slick-theme.css" />
-    @Scripts.Render("~/bundles/modernizr")
-  
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 
-    <script src="//use.typekit.net/atc0xue.js"></script>
-    <script>try { Typekit.load(); } catch (e) { }</script>
 </head>
 <body class="landing">
 
@@ -149,9 +142,18 @@
         </ul>
     </footer>
 
-    @Scripts.Render("~/bundles/jquery")
-    @RenderSection("scripts", required: false)
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("scripts", required: false)
+
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="//use.typekit.net/atc0xue.js"></script>
+    <script>try { Typekit.load(); } catch (e) { }</script>
+
+
     <script type="text/javascript">
         $(function () {
             var selected = $("li.active a").html();

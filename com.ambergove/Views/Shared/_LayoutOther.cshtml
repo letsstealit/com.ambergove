@@ -13,17 +13,10 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     @Styles.Render("~/css/all")
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css" />
-    <link rel="stylesheet" type="text/css" href="~/css/slick-theme.css" />
-    @Scripts.Render("~/bundles/modernizr")
-  
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    @Styles.Render("~/css/style")
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+  
 
-    <script src="//use.typekit.net/atc0xue.js"></script>
-    <script>try { Typekit.load(); } catch (e) { }</script>
 </head>
 <body class="landing2 paisley ">
 
@@ -61,6 +54,10 @@
         </ul>
     </footer>
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="//use.typekit.net/atc0xue.js"></script>
+    <script>try { Typekit.load(); } catch (e) { }</script>
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
     <script type="text/javascript">
